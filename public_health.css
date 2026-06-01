@@ -1,0 +1,631 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    color:#333;
+    overflow-x:hidden;
+    background:#ffffff;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+.bg-light-custom{
+    background:#f7f7f7;
+}
+
+/* NAV FIX */
+.navbar{
+    top:20px;
+    z-index:999;
+    margin:25px auto;
+}
+
+.navbar .container-fluid{
+    max-width:900px;
+}
+
+.offcanvas-body{
+    background:#223148;
+    border-radius:50px;
+    padding:8px 18px;
+}
+
+.navbar-nav{
+    gap:12px;
+}
+
+.nav-link{
+    color:white !important;
+    font-size:13px;
+    padding:7px 12px !important;
+}
+
+.nav-link.active,
+.nav-link:hover{
+    background:white;
+    color:#223148 !important;
+    border-radius:20px;
+}
+
+.centerlogo{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+/* HERO SECTION */
+.understanding-smellscapes{
+    padding:45px 0 70px;
+}
+
+.understanding-smellscapes .container{
+    background:#f2f2f2;
+    border-radius:20px;
+    padding:50px;
+}
+
+.section-main-title{
+    font-weight:800;
+    color:#404040;
+    font-size:2.1rem;
+    line-height:1.3;
+}
+
+.section-description{
+    color:#666;
+    line-height:1.6;
+    font-size:0.95rem;
+}
+
+.mini-dark-card{
+    background:#223148;
+    padding:35px 20px 25px;
+    border-radius:14px;
+    position:relative;
+    margin-top:30px;
+    transition:0.3s ease;
+}
+
+.mini-dark-card:hover{
+    transform:translateY(-5px);
+}
+
+.mini-avatar-icon{
+    width:48px;
+    height:48px;
+    background:white;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    top:-24px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.mini-avatar-icon i{
+    color:#223148;
+    font-size:1.3rem;
+}
+
+.btn-discover-mini{
+    background:white;
+    color:#223148;
+    font-weight:600;
+    font-size:0.75rem;
+    padding:6px 14px;
+    border-radius:20px;
+    text-decoration:none;
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+}
+
+.btn-discover-mini:hover{
+    background:#3b567d;
+    color:white;
+}
+
+.herosection-border{
+    background:white;
+    border-radius:18px;
+    padding:22px;
+}
+
+.large-showcase-card{
+    background:#d4d4d4;
+    padding:16px;
+    border-radius:22px;
+    max-width:350px;
+    width:100%;
+}
+
+.showcase-img-placeholder{
+    height:260px;
+    border-radius:18px;
+    overflow:hidden;
+}
+
+.herosection-pic{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:18px;
+}
+
+.showcase-card-body{
+    background:white;
+    padding:20px;
+    border-radius:16px;
+    margin-top:15px;
+}
+
+/* WHY MATTERS */
+.why_matters{
+    background:#223148;
+    padding:70px 0 120px;
+    text-align:center;
+    color:white;
+}
+
+.why_matters p{
+    font-size:0.9rem;
+    line-height:1.6;
+}
+
+/* OVERLAP CARDS */
+.why_matters_cards_section{
+    background:#f7f7f7;
+    padding-bottom:70px;
+}
+
+.card-overlap-wrapper{
+    margin-top:-80px;
+}
+
+.why_matters_overlap_card{
+    background:white;
+    padding:35px 25px;
+    border-radius:28px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.08);
+    min-height:230px;
+    transition:0.3s ease;
+}
+
+.why_matters_overlap_card:hover{
+    transform:translateY(-8px);
+}
+
+.overlap-icon-box{
+    width:60px;
+    height:60px;
+    background:#223148;
+    color:white;
+    font-size:1.5rem;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 20px;
+}
+
+/* MODAL */
+.custom-sensory-modal .modal-content{
+    border:none;
+    border-radius:25px;
+    padding:12px;
+    box-shadow:0 20px 50px rgba(0,0,0,0.18);
+}
+
+.custom-sensory-modal .modal-header{
+    border-bottom:1px solid #f1f1f1;
+}
+
+.custom-sensory-modal .modal-header-icon{
+    width:45px;
+    height:45px;
+    background:#223148;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.custom-sensory-modal .modal-body{
+    color:#555;
+    font-size:0.92rem;
+    line-height:1.6;
+}
+
+.custom-modal-close-btn{
+    background:#223148;
+    border:none;
+    border-radius:14px;
+}
+
+/* SOURCES SECTION */
+.source-main-card{
+    background:white;
+    border-radius:24px;
+    padding:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.06);
+}
+
+.source-img-box{
+    height:260px;
+    background:#e9ecef;
+    border-radius:18px;
+    overflow:hidden;
+}
+
+.source-img-box img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.source-accent-title{
+    background:#223148;
+    color:white;
+    font-weight:600;
+    font-size:0.9rem;
+    display:inline-block;
+    padding:8px 20px;
+    border-radius:12px;
+    margin-top:-20px;
+    margin-left:15px;
+    position:relative;
+    z-index:5;
+}
+
+.source-body{
+    padding:22px 12px 5px;
+}
+
+.source-list{
+    padding-left:16px;
+    color:#555;
+    line-height:1.6;
+}
+
+.middle-survey-box{
+    border-radius:18px !important;
+    
+}
+
+.survey-stat{
+    font-size:2rem;
+}
+
+.split-carousel-btn{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:42px;
+    height:42px;
+    background:white;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:50%;
+    color:#111;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:20;
+    box-shadow:0 5px 15px rgba(0,0,0,0.12);
+}
+
+.split-carousel-btn.left-arrow{
+    left:-15px;
+}
+
+.split-carousel-btn.right-arrow{
+    right:-15px;
+}
+
+.carousel-inner{
+    overflow:hidden;
+}
+
+
+
+/* TABLE */
+.main-section-heading{
+    font-size:2.2rem;
+    color:#404040;
+    line-height:1.25;
+}
+
+.custom-smell-table th{
+    font-size:0.9rem;
+    border-bottom:2px solid #777 !important;
+    padding:15px 10px;
+}
+
+.custom-smell-table td{
+    padding:22px 10px;
+    border-bottom:1.5px solid #ddd;
+}
+
+.table-place-title{
+    width:30%;
+}
+
+.badge-smell-dark,
+.badge-smell-navy{
+    color:white;
+    font-weight:500;
+    font-size:0.82rem;
+    padding:8px 16px;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+.badge-smell-dark{
+    background:#545454;
+}
+
+.badge-smell-navy{
+    background:#223148;
+}
+
+/* HEALTH SECTION */
+.health-pod-wrapper{
+    background:#223148;
+    border-radius:80px;
+    padding:60px 40px;
+    margin-top:70px;
+}
+
+.health-circle-avatar{
+    width:145px;
+    height:145px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-top:-115px;
+    border:6px solid white;
+}
+
+.health-link-btn{
+    font-size:0.8rem;
+}
+
+/* COMPARISON */
+.font-large{
+    font-size:2.6rem;
+}
+
+.graphics-container{
+    min-height:420px;
+}
+
+.comparison-pill{
+    width:95px;
+    border-radius:100px;
+    overflow:hidden;
+    background:#223148;
+    transition:0.3s ease;
+}
+
+.comparison-pill:hover{
+    transform:translateY(-10px);
+}
+
+.pill-short{
+    height:280px;
+}
+
+.pill-medium{
+    height:340px;
+}
+
+.pill-long{
+    height:400px;
+}
+
+.bg-smell{
+    background:#404040;
+}
+
+.bg-air{
+    background:#223148;
+}
+
+/* POPOVER */
+.custom-smell-popover{
+    --bs-popover-max-width:320px;
+    border-radius:14px !important;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15) !important;
+}
+
+.popover-thumb{
+    width:44px;
+    height:44px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.popover-intro,
+.section-desc{
+    font-size:0.8rem;
+    line-height:1.4;
+    color:#5c5c5c;
+}
+
+/* RESPONSIVE */
+@media(max-width:991px){
+    .understanding-smellscapes .container{
+        padding:35px 25px;
+    }
+
+    .section-main-title{
+        font-size:1.8rem;
+    }
+
+    .large-showcase-card{
+        max-width:100%;
+    }
+
+    .card-overlap-wrapper{
+        margin-top:-70px;
+    }
+
+    .why_matters_overlap_card{
+        min-height:auto;
+    }
+
+    .table-place-title{
+        width:40%;
+    }
+
+    .graphics-container{
+        min-height:auto;
+        margin-top:30px;
+    }
+
+    .comparison-pill{
+        width:80px;
+    }
+
+    .pill-short{
+        height:210px;
+    }
+
+    .pill-medium{
+        height:260px;
+    }
+
+    .pill-long{
+        height:310px;
+    }
+
+    .font-large{
+        font-size:2rem;
+    }
+}
+
+@media(max-width:767px){
+    .navbar{
+        margin:15px;
+        top:10px;
+    }
+
+    .offcanvas-body{
+        border-radius:0;
+        padding:20px;
+    }
+
+    .navbar-nav{
+        align-items:flex-start !important;
+        gap:5px;
+    }
+
+    .nav-logo{
+        display:none;
+    }
+
+    .understanding-smellscapes{
+        padding-top:25px;
+    }
+
+    .understanding-smellscapes .container{
+        border-radius:18px;
+    }
+
+    .section-main-title,
+    .main-section-heading{
+        font-size:1.65rem;
+    }
+
+    .section-description{
+        font-size:0.88rem;
+    }
+
+    .showcase-img-placeholder{
+        height:220px;
+    }
+
+    .why_matters{
+        padding:55px 0 100px;
+    }
+
+    .card-overlap-wrapper{
+        margin-top:-65px;
+    }
+
+    .source-img-box{
+        height:210px;
+    }
+
+    .split-carousel-btn{
+        width:35px;
+        height:35px;
+    }
+
+    .split-carousel-btn.left-arrow{
+        left:0;
+    }
+
+    .split-carousel-btn.right-arrow{
+        right:0;
+    }
+
+    .custom-smell-table{
+        min-width:650px;
+    }
+
+    .health-pod-wrapper{
+        border-radius:45px;
+        padding:45px 20px;
+        margin-top:40px;
+    }
+
+    .health-circle-avatar{
+        margin-top:0;
+        width:120px;
+        height:120px;
+    }
+
+    .graphics-container{
+        justify-content:center !important;
+    }
+}
+
+@media(max-width:575px){
+    .understanding-smellscapes .container{
+        padding:28px 18px;
+    }
+
+    .mini-dark-card{
+        margin-bottom:10px;
+    }
+
+    .source-img-box{
+        height:190px;
+    }
+
+    .comparison-pill{
+        width:65px;
+    }
+
+    .pill-short{
+        height:170px;
+    }
+
+    .pill-medium{
+        height:220px;
+    }
+
+    .pill-long{
+        height:270px;
+    }
+}

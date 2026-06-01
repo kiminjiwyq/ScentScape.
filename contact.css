@@ -1,0 +1,115 @@
+
+
+
+body {
+      font-family: "Poppins", sans-serif;
+      background-color: var(--light-grey);
+      color: var(--navy);
+    }
+
+@media(max-width:767px){
+    body{
+        background: linear-gradient(to bottom, #f2f2f2 40%, transparent 40%);
+    }
+}
+.contact-heading{
+    margin-top: 40px;
+    color: #545454;
+}
+/* message form container aka the white container */
+.white-base{
+    background-color: #ffff;
+    border-radius: 40px;
+    box-shadow: 0 10px 40px #0000000d;
+    padding: 60px 220px 60px 60px;
+    margin-right: -160px;
+    position: relative;
+    z-index: 1;
+}
+/* contact info container aka the blue container */
+.blue-offset-card{
+    background-color: #223148;
+    color: white;
+    border-radius: 40px;
+    padding: 50px 40px;
+    margin-top: 40px; 
+    margin-left: -20px;
+    box-shadow: 15px 15px 35px #00000033;
+    position: relative;
+    z-index: 2;
+}
+@media (max-width:768px){
+    .white-base{
+      padding:50px;
+      margin-left: 8px;
+      margin-right: 8px;
+      
+    }
+    .blue-offset-card{
+      padding: 30px;
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+}
+@media (769px <= width <= 990px) {
+  .white-base{
+    margin-left: -20px;
+    margin-right: 0;
+  }
+  .col-md-7{
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100% !important;
+  }
+  .col-md-5{
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100% !important;
+  }
+}
+
+.form-control{
+    border-radius: 20px;
+    padding: 12px 20px;
+    border: 1px solid #929292;
+}
+.label-text{
+    color: #545454;
+}
+.input-group-text{
+    border-radius: 20px 0 0 20px;
+    background:  #ffff;
+    border-right: none;
+    color: #545454;
+}
+.phone-field{
+    border-radius: 0 20px 20px 0;
+    border-left: none;
+}
+/* contact info design */
+.info-pill{
+    background: #ffff;
+    color: #223148;
+    border-radius: 25px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.bi-icon{
+    font-size: 1.6rem;
+    margin-right: 15px;
+    color: #223148;
+}
+.btn-submit{
+    background-color: #223148;
+    color: #ffff;
+    border-radius: 30px;
+    padding: 12px 40px;
+    font-weight: 600;
+}
+ 

@@ -1,0 +1,209 @@
+body {
+      font-family: "Poppins", sans-serif;
+      background-color: var(--light-grey);
+      color: var(--navy);
+    }
+
+.goals-container{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+/* Dark SDG Floating Card */
+.sdg-card{
+    background-color: #263852;
+    color: white;
+    border-radius: 30px;
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.sdg-icon{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.sdg-text{
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* White Vision/Mission Card */
+.vision-mission-base{
+    background: white;
+    border-radius: 40px;
+    padding: 100px 60px 60px 60px;
+    margin-top: -60px; /* Pulls it up under the SDG card */
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+}
+
+.vertical-divider {
+    border-left: 1px solid #dee2e6;
+    height: 100%;
+}
+
+.vm-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.vm-icon {
+    font-size: 2rem;
+    color: #4a5568;
+}
+
+.sdg-divider {
+    border-left: 1px solid rgba(255,255,255,0.2);
+    height: 80px;
+}
+.section-header {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.section-header h1 {
+    font-weight: 700;
+    color: #454545;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    border-bottom: 3px solid #555;
+    padding-bottom: 10px;
+}
+
+
+/* The Profile Card Container */
+.team-card-wrapper {
+    position: relative;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+/* The Dark Blue Rotated Background */
+.stn-card-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 220px;
+    background-color: #263852;
+    border-radius: 40px;
+    transform: rotate(23deg); 
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    margin-top: -115px;
+    margin-left: -125px;
+}
+
+.ei-card-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 220px;
+    background-color: #263852;
+    border-radius: 40px;
+    transform: rotate(-23deg); 
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    margin-top: -115px;
+    margin-left: -125px;
+}
+
+.waddy-card-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 220px;
+    background-color: #263852;
+    border-radius: 40px;
+    transform: rotate(23deg); 
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    margin-top: -115px;
+    margin-left: -125px;
+}
+
+/* The White Content Card */
+.team-card {
+    position: relative;
+    z-index: 2;
+    background: white;
+    border-radius: 30px;
+    width: 260px;
+    padding: 60px 20px 30px 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Profile Image / Icon */
+.profile-img-box img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+}
+
+
+.member-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #444;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.member-role {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 25px;
+}
+
+/* Social Icons */
+.social-links i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: #545454;
+    color: white;
+    border-radius: 50%;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-links i:hover{
+    background-color: #1a2a3a;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.intro h2{
+    color: #454545;
+}
